@@ -2,7 +2,7 @@
   "name": "vscode-webview-ui-toolkit-langchain-samples",
   "displayName": "VSCode WebView UI Toolkit LangChain Samples",
   "description": "VS Code extension demonstrating WebView UI Toolkit integration with LangChain and OpenAI.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sunwood-ai-labs/vscode-webview-ui-toolkit-LangChain-samples"
