@@ -66,6 +66,4 @@ MITライセンスの下で配布されています。詳細は`LICENSE`ファ�
 
 ## 📞 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/your-username/vscode-webview-ui-toolkit-LangChain-samples](https://github.com/your-username/vscode-webview-ui-toolkit-LangChain-samples)
+Maki - [@Maki@Sunwood AI Labs.](https://x.com/hAru_mAki_ch)
