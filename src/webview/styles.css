@@ -1,0 +1,50 @@
+/* src/webview/styles.css */
+
+/* 既存のスタイルはそのまま */
+
+/* 見出しのスタイル */
+h1 {
+  font-size: 1.5em;
+}
+
+/* チャットコンテナのスタイル */
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* チャットメッセージの表示領域 */
+#chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: var(--vscode-input-background);
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+/* チャットメッセージのスタイル */
+.chat-message {
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  max-width: 80%;
+}
+
+.chat-message.user {
+  background-color: var(--vscode-button-background);
+  align-self: flex-end;
+  color: var(--vscode-button-foreground);
+}
+
+.chat-message.ai {
+  background-color: var(--vscode-inputValidation-infoBackground);
+  align-self: flex-start;
+  color: var(--vscode-inputValidation-infoForeground);
+}
+
+/* ローディングメッセージのスタイル */
+.loading {
+  font-style: italic;
+  color: var(--vscode-inputValidation-errorForeground);
+}
