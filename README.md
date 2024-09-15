@@ -1,4 +1,12 @@
-# vscode-webview-ui-toolkit-LangChain-samples
+
+
+<div align="center">
+
+<img src="icon.png" width="500" alt="icon">
+
+<h1>VSCode WebView UI Toolkit LangChain Samples</h1>
+
+</div>
 
 このサンプル拡張機能は、Visual Studio Code用のWebview UI Toolkitを使用して、Webviewビュー内でLangChainとOpenAIを統合したチャットボットを実装しています。
 
