@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="icon.png" width="500" alt="icon">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/vscode-webview-ui-toolkit-LangChain-samples/main/icon.png" width="500" alt="icon">
 
 <h1>VSCode WebView UI Toolkit LangChain Samples</h1>
 
