@@ -2,10 +2,17 @@
   "name": "vscode-webview-ui-toolkit-langchain-samples",
   "displayName": "VSCode WebView UI Toolkit LangChain Samples",
   "description": "VS Code extension demonstrating WebView UI Toolkit integration with LangChain and OpenAI.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunwood-ai-labs/vscode-webview-ui-toolkit-LangChain-samples"
+  },
+  "publisher": "Maki-SunwoodAILabs",
   "engines": {
     "vscode": "^1.75.0"
   },
+  "icon": "icon.png", 
+  "activationEvents": ["*"],
   "main": "./out/extension.js",
   "contributes": {
     "views": {
@@ -21,7 +28,7 @@
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "node ./esbuild.js",
-    "package": "NODE_ENV=production node ./esbuild.js",
+    "package": "cross-env NODE_ENV=production node ./esbuild.js",
     "watch": "node ./esbuild.js --watch",
     "lint": "eslint src --ext ts"
   },
@@ -37,7 +44,8 @@
     "eslint": "^8.26.0",
     "glob": "^8.0.3",
     "prettier": "^2.8.1",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
     "@langchain/openai": "^0.2.0",
